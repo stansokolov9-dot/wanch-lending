@@ -1,0 +1,47 @@
+.welcome {
+  padding-top: 80px;
+}
+.welcom-box {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.welcom-box-left {
+  max-width: 597px;
+}
+.title-welcome {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 0.875;
+  letter-spacing: -0.02em;
+}
+.span {
+  color: #3350e9;
+}
+.welcom-text {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  max-width: 480px;
+}
+.welcom-box-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.welcome-list {
+  display: flex;
+}
+.welcome-link a {
+  color: #0c0c0c;
+  text-decoration: underline;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.welcome-img {
+  width: 100%;
+}

@@ -4,82 +4,135 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./fonts/style.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header id="section-header">
-      <a href="./html">watchcharm</a>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About Us</a>
-          </li>
-          <li>
-            <a href="#">Catalog</a>
-          </li>
-          <li>
-            <a href="#">Sale</a>
-          </li>
-          <li>
-            <a href="#">Reviews</a>
-          </li>
-          <li>
-            <a href="#">Reviewss</a>
-          </li>
-        </ul>
-      </nav>
+    <header id="header" class="header">
+      <div class="container">
+        <a class="logo-top" href="./html">watchcharm</a>
+        <nav>
+          <ul class="nav-list">
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="#about-us">About Us</a>
+            </li>
+            <li>
+              <a href="#catalog">Catalog</a>
+            </li>
+            <li>
+              <a href="#sale">Sale</a>
+            </li>
+            <li>
+              <a href="#reviews">Reviews</a>
+            </li>
+            <li>
+              <a href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="social-media">
+          <ul class="social-media-list">
+            <li>
+              <a class="social-media-link" href="#" target="_blank">
+                <svg width="20" height="20" fill="#0C0C0C">
+                  <use href="./images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <svg width="20" height="20" fill="#0C0C0C">
+                  <use href="./images/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <svg width="20" height="20" fill="#0C0C0C">
+                  <use href="./images/sprite.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
+
     <main>
-      <section class="section-welcom">
-        <h1>Welcome to our collection of premium watches</h1>
-        <p>
-          Our watches are not just timepieces, but also an expression of your
-          personality and lifestyle. From classic designs to modern ones, we
-          have a watch to suit every taste and occasion.
-        </p>
-        <a href="#section-footer">Scroll down</a>
-        <img
-          src="./images/Rectangle-10.jpg"
-          alt="watch-Rectangle-10"
-          width="1150"
-          height="500"
-        />
+      <section id="welcome" class="welcome">
+        <div class="container">
+          <div class="welcom-box">
+            <div class="welcom-box-left">
+              <h2 class="title-welcome">
+                Welcome to our <span class="span"> collection </span> of premium
+                watches
+              </h2>
+              <p class="welcom-text">
+                Our watches are not just timepieces, but also an expression of
+                your personality and lifestyle. From classic designs to modern
+                ones, we have a watch to suit every taste and occasion.
+              </p>
+            </div>
+            <div class="welcom-box-right">
+              <div class="box-right-item">
+                <ul class="welcome-list">
+                  <li>
+                    <img src="./images/Victoria-Romashenko.png" alt="worker" />
+                  </li>
+                  <li><img src="./images/John-Wax.png" alt="worker" /></li>
+                  <li>
+                    <img src="./images/Anastasia-Trachuk.png" alt="worker" />
+                  </li>
+                </ul>
+              </div>
+              <div class="welcome-link">
+                <a href="#section-footer">Scroll down</a>
+              </div>
+            </div>
+          </div>
+          <img
+            class="welcome-img"
+            src="./images/Rectangle-10.jpg"
+            alt="watch-Rectangle-10"
+          />
+        </div>
       </section>
-      <section class="section-about">
-        <h2>About Us</h2>
-        <p>
-          Welcome to our premium watch collection, where luxury and style meet
-          functionality and precision. Our selection of timepieces embodies the
-          very best in Swiss craftsmanship and engineering, ensuring that you'll
-          always have a reliable and stylish accessory on your wrist.
-        </p>
-        <p>
-          At our premium watch collection, we believe that a watch is more than
-          just a timekeeping device – it's a statement piece that reflects your
-          personality and style. So why settle for anything less than the best?
-        </p>
-        <button type="button"></button>
-        <img
-          src="./images/Rectangle-11.jpg"
-          alt="watch-Rectangle-11"
-          width="530"
-          height="532"
-        />
+      <section id="about-us" class="about-us">
+        <div class="container">
+          <div class="about-us-left">
+            <h2 class="title-about-us">About Us</h2>
+            <p class="text-about-us">
+              Welcome to our premium watch collection, where luxury and style meet
+              functionality and precision. Our selection of timepieces embodies
+              the very best in Swiss craftsmanship and engineering, ensuring that
+              you'll always have a reliable and stylish accessory on your wrist.
+            </p>
+            <p class="text-about-bottom">
+              At our premium watch collection, we believe that a watch is more
+              than just a timekeeping device – it's a statement piece that
+              reflects your personality and style. So why settle for anything less
+              than the best?
+            </p>
+            <button class="btn-about-us" type="button">View catalog</button>
+          </div>
+          <img
+            class="img-about-us"
+            src="./images/Rectangle-11.jpg"
+            alt="watch-Rectangle-11"
+          />
+        </div>
       </section>
-      <section class="section-catalog">
+      <section id="catalog" class="catalog">
         <h1>Catalog</h1>
         <ul>
           <li>
@@ -144,14 +197,14 @@
           </li>
         </ul>
       </section>
-      <section class="section-your-story">
+      <section id="your-story" class="your-story">
         <h2>
           Choose your story, making every moment unique. Time is your style, and
           we reveal it.
         </h2>
         <button type="button">Contact Us</button>
       </section>
-      <section class="section-sale">
+      <section id="sale" class="sale">
         <img
           src="./images/watch-front-1.jpg"
           alt="watch-front-1"
@@ -201,7 +254,7 @@
         <p>Commander</p>
         <p>Adventurer</p>
       </section>
-      <section class="section-reviews">
+      <section id="reviews" class="reviews">
         <h2>Reviews</h2>
         <ul>
           <li>
@@ -248,7 +301,7 @@
           </li>
         </ul>
       </section>
-      <section class="section-contact-us">
+      <section id="contact-us" class="contact-us">
         <h1>Contact Us</h1>
         <p>
           Please use the form below to contact us. Enter your name, email,
@@ -263,7 +316,7 @@
         />
       </section>
     </main>
-    <footer id="section-footer">
+    <footer id="footer">
       <p>watchcharm</p>
       <p>
         Have the time of your life with our watches: where high-class

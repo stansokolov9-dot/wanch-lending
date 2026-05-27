@@ -1,5 +1,7 @@
 @import url("./common.css");
-@import './fonts/stylesheet.css';
+@import '../fonts/stylesheet.css';
 @import './header.css';
 @import './welcome.css';
 @import './about.css';
+@import './catalog.css';
+@import './story.css';
